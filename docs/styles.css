@@ -140,4 +140,7 @@ body {
     width: 50px;
     height: auto;
     z-index: 4;
+
+    /* pour qu'il soit transparent */
+    pointer-events: none;
 }
