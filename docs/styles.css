@@ -21,7 +21,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: calc(100% + 100px);
+    width: 100%;
     height: 100%;
     background-image: url('ciel.jpg');
     /* L'image de fond */
