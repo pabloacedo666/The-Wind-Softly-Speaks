@@ -143,4 +143,10 @@ body {
 
     /* pour qu'il soit transparent */
     pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+
+body.vanish #pablal {
+    opacity: 0
 }

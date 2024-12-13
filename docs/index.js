@@ -12,3 +12,13 @@ document.addEventListener('touchmove', (e) => {
     pablal.style.left = e.touches[0].clientX + 'px'
     pablal.style.top = e.touches[0].clientY + 'px'
 })
+
+
+document.querySelector('audio').addEventListener('mouseenter', () => {
+    console.log('on')
+    document.body.classList.add('vanish')
+})
+document.querySelector('audio').addEventListener('mouseleave', () => {
+    console.log('off')
+    document.body.classList.remove('vanish')
+})
