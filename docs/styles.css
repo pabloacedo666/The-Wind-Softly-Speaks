@@ -21,7 +21,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: calc(100% + 100px);
     height: 100%;
     background-image: url('ciel.jpg');
     /* L'image de fond */
@@ -31,6 +31,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 /* Style du lecteur audio */
 #audio-player {
@@ -130,4 +131,13 @@ body {
 #time-display {
     font-size: 14px;
     font-family: monospace;
+}
+
+#pablal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: auto;
+    z-index: 4;
 }
